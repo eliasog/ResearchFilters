@@ -1,0 +1,40 @@
+
+    if band=='Ks':
+        lambda_eff=2.159         # micron
+        halfwidth=0.262/2.0  # micron
+        F0=4.283E-14        # W cm^-2 micron^-1
+
+    elif band=='H':
+        lambda_eff=1.662
+        halfwidth=0.251/2.0
+        F0=1.133E-13
+
+    elif band=='J':
+        lambda_eff=1.235
+        halfwidth=0.162/2.0
+        F0=3.129E-13
+
+    elif band=='U':
+        lambda_eff=0.365
+        halfwidth=0.066/2.0
+        F0=4.19E-12
+
+    elif band=='B':
+        lambda_eff=0.445
+        halfwidth=0.094/2.0
+        F0=6.60E-12
+
+    elif band=='V':
+        lambda_eff=0.551
+        halfwidth=0.088/2.0
+        F0=3.61E-12
+
+    elif band=='R':
+        lambda_eff=0.658
+        halfwidth=0.138/2.0
+        F0=2.25E-12
+
+    elif band=='I':
+        lambda_eff=0.806
+        halfwidth=0.149/2.0
+        F0=1.22E-12
